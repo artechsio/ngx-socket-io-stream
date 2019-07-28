@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-socket-io-stream": [
+        "dist/ngx-socket-io-stream"
+      ],
+      "ngx-socket-io-stream/*": [
+        "dist/ngx-socket-io-stream/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
